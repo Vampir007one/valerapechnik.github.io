@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    // background: -webkit-linear-gradient(350deg, #261e1a,#ba5011,#c1c148);/* Chrome 10-25, Safari 5.1-6 */                          
+    background: linear-gradient(350deg, #261e1a,#ba5011,#c1c148);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;                                         
+}
+
+.header
+{
+    width: 100%;
+
+    ul
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+
+        li
+        {
+            margin: 0px 10px ;
+            list-style: none;
+
+            a
+            {
+                text-decoration: none;
+            }
+
+        }
+
+    }
+}
+
+.main
+{
+    margin-top: 100px;
+
+    width: 100%;
+    .card
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text
+        {  
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            p
+            {
+                display: flex;
+                flex-flow: column;
+                width: 50vw;
+                font-size: 18px;
+            }
+        }
+
+        img
+        {
+            width: 20vw;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 10px 5px 5px #ae9393;
+        }
+
+       
+
+       
+    }
+}
+    
